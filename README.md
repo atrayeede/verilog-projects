@@ -1,18 +1,15 @@
-## Synthesis Results
+# Verilog RTL Design Portfolio
 
-edit every data later by looking at the files.
-Tool: Cadence Genus
+This repository contains a collection of Verilog hardware designs, complete with testbenches, constraints (.sdc), and detailed synthesis reports.
 
-Clock frequency: 100 MHz
+Each module has been synthesized using the `ts118fs120 scl ss` standard cell library, with accompanying Area, Power, and Timing reports to demonstrate a complete RTL-to-synthesis flow.
 
-Area: 2450 µm²  
-Total cell count: 312 gates
+## Project Structure
 
-Timing:
-Worst Negative Slack (WNS): 0.12 ns
-Timing met for target frequency
-
-Power:
-Total Power: 0.84 mW
-Dynamic Power: 0.65 mW
-Leakage Power: 0.19 mW
+verilog-projects/
+├── README.md # Project overview
+├── pipelined_multiplier # 8-bit Pipelined Multiplier
+├── ram_model # Simple RAM Model
+├── shift_register # 8-bit Bidirectional Shift Register
+├── uar # Universal Asynchronous Receiver
+└── up_counter # 4-bit Asynchronous Up Counter
