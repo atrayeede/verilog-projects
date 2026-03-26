@@ -1,0 +1,19 @@
+Usage: (0.1%H 0.1%V) = (2.694e+03um 4.334e+03um) = (481 774)
+Overflow: 0 = 0 (0.00% H) + 0 (0.00% V)
+
+Congestion distribution:
+
+Remain	cntH		cntV
+--------------------------------------
+--------------------------------------
+  1:	1008	 1.22%	767	 0.90%
+  2:	864	 1.05%	81	 0.09%
+  3:	787	 0.96%	148	 0.17%
+  4:	416	 0.51%	59	 0.07%
+  5:	79257	96.27%	84444	98.77%
+[hotspot] +------------+---------------+---------------+
+[hotspot] |            |   max hotspot | total hotspot |
+[hotspot] +------------+---------------+---------------+
+[hotspot] | normalized |          0.00 |          0.00 |
+[hotspot] +------------+---------------+---------------+
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
